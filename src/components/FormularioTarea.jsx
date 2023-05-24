@@ -10,6 +10,8 @@ const FormularioTarea = () => {
 
   const handleSubmit = (e)=>{
     e.preventDefault();
+   setTareas([...tareas,tarea]);
+   setTarea('');
   }
 
   return (
